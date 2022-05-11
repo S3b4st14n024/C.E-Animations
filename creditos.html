@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/Style.css">
+        <title>Servicios</title>
+    </head>
+    
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+        
+              <img src="imagenes/E.D.PNG" alt="" height="150px" width="150px" radius="100%" style="border-radius: 100%;">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html" id="espacioletra">Inicio</a>
+                  </li>
+        
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="AcercaDe/" id="espacioletra" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      Acerca de
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="AcercaDe/informacion.html">Información general.</a></li>
+                      <li><a class="dropdown-item" href="AcercaDe/historia.html">Historia.</a></li>
+                      <li><a class="dropdown-item" href="AcercaDe/mision.html">Misión.</a></li>
+                      <li><a class="dropdown-item" href="AcercaDe/vision.html">Visión.</a></li>
+                      <li>
+                        <hr class="dropdown-divider">
+                      </li>
+                      <li><a class="dropdown-item" href="AcercaDe/opiniones.html">Opiniones.</a></li>
+                    </ul>
+                  </li>
+        
+                  <li class="nav-item">
+                    <a class="nav-link" href="equipo.html" id="espacioletra">Equipo</a>
+                  </li>
+        
+                  <li class="nav-item">
+                    <a class="nav-link" href="servicios.html" id="espacioletra">Servicios</a>
+                  </li>
+        
+                  <li class="nav-item">
+                    <a class="nav-link" href="empleos.html" id="espacioletra">Empleos</a>
+                  </li>
+                  
+                  <li class="nav-item">
+                    <a class="nav-link" href="creditos.html" id="espacioletra">Creditos</a>
+                  </li>
+        
+                </ul>
+              </div>
+              </div>
+        </nav>
+    
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="row">
+                  <div class="col-md-7 mt-4">
+                    <h1 class="" id="titulo" style="color:black", style="float:center;" >Bienvenidos a C.E-Animations</h1>
+                  </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-7 mt-4">
+                        <div id="productos">
+
+                        </div>
+                    </div>
+                    <div class="col-md-5 mt-4 ">
+
+
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Servicios</h5>
+                                        <!--Aquí va el formulario-->
+                                        <form role="form">
+                                            <div class="form-group">
+                                                <label for="exampleInputEmail1">
+                                                    Nombre producto
+                                                </label>
+                                                <input type="text" class="form-control" id="nombre_producto" />
+                                            </div>
+                                            <div class="form-group">
+                                                <br>
+                                                <button type="submit" class="btn btn-primary" onclick="registrarProducto()">
+                                                Registrar
+                                            </button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <table class="table table-dark table-hover">
+            <thead>
+              <tr style="border:blueviolet;">
+                <th scope="col">Nombre:</th>
+                <th scope="col">Apellidos:</th>
+                <th scope="col">Rol:</th>
+                <th scope="col">Función:</th>
+                <th scope="col">Ingreso empresarial:</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Pedro</td>
+                <td>Muñoz Gutierez</td>
+                <td>DJ</td>
+                <td>Gestor y encargado de la musica.</td>
+                <td>27/04/2019</td>
+              </tr>
+              <tr>
+                <td>Jacob</td>
+                <td>Garcia Polo</td>
+                <td>Animador</td>
+                <td>Se encarga de hacer todo tipo de shows para animar el hambiente.</td>
+                <td>28/03/2018</td>
+              </tr>
+              <tr>
+                <td>Lorena</td>
+                <td>Amaya Gonzalez</td>
+                <td>Decoradora</td>
+                <td>Nos dara el hambiente digno para que la presentacion y demas cosas sean relacionadas con la tematica.</td>
+                <td>30/01/2016</td>
+              </tr>
+              <tr>
+                <td>Eugenio</td>
+                <td>Espin Garzon</td>
+                <td>Organizador</td>
+                <td>Se encarga de verificar que todo este concuerde y digno a la prtesentación del evento.</td>
+                <td>30/01/2016</td>
+              </tr>
+              <tr>
+                <td>Nelson</td>
+                <td>Marques Amoros</td>
+                <td>Gerente</td>
+                <td>Encargado que toda actividad realizar por cada miembro del equipo se haga de una excelente calidad.</td>
+                <td>25/01/2015</td>
+              </tr>
+              <tr>
+                <td>Alberto</td>
+                <td>Olaya Cerna</td>
+                <td>Vigilancia</td>
+                <td>Si los clientes requieren un vigilante del ingreso al evento.</td>
+                <td>10/08/2020</td>
+              </tr>
+              <tr>
+                <td>Raimundo</td>
+                <td>Vera Beltran</td>
+                <td>Comerciante</td>
+                <td>Se encarga de realizar todo tipo de información hacia el evento.</td>
+                <td>05/05/2015</td>
+              </tr>
+              <tr>
+                <td>Sebastian</td>
+                <td>Galido Cruz</td>
+                <td>Dueño</td>
+                <td>Encargado de la gestion y Organización del equipo.</td>
+                <td>25/01/2015</td>
+              </tr>
+              <tr>
+                <td>Luna</td>
+                <td>Mora Ramirez</td>
+                <td>Animadora</td>
+                <td>Se encarga de hacer todo tipo de shows para animar el hambiente.</td>
+                <td>12/01/2017</td>
+              </tr>
+              <tr>
+                <td>Ricardo</td>
+                <td>Saez Paredes</td>
+                <td>Animador</td>
+                <td>se encarga que los invitados se diviertan y disfruten de nuestros eventos.</td>
+                <td>15/12/2016</td>
+              </tr>
+
+            </tbody>
+          </table>
+    </div>
+    <script src="/js/bootstrap.min.js"></script>
+</body>
+</html>
